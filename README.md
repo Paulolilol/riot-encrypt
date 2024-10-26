@@ -41,5 +41,11 @@ sent in a JSON response.
 - Data can be any JSON object.
 - If the provided signature matches the computed signature, the response code should be `204`; otherwise, it should be `400`.
 
+6. How to run, at the root of the project run
+* define your secret-key:  export SECRET_KEY = <secret>
+* npm install
+* npm run build
+* npm run start
+
 
 Send me the project, your GitHub repository by email louis@tryriot.com.
